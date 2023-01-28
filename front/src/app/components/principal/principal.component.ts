@@ -14,7 +14,7 @@ export class PrincipalComponent implements OnInit {
   constructor(config: NgbCarouselConfig) {
     config.interval = 3000;
     config.keyboard = true;
-    config.pauseOnHover = true;
+    config.pauseOnHover = false;
    }
 
   ngOnInit(): void {
